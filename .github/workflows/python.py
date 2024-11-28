@@ -1,13 +1,14 @@
 # sample.py
 
 def hello_world():
-    print("Hello World") # This is a valid line
-    
+    print("Hello World")  # This is a valid line
+
 def example_function():
- unused_var = 10  # IndentationError: inconsistent use of tabs and spaces in indentation
-    print("This function is not doing anything") # This line has wrong indentation
-    
+    unused_var = 10  # Unused variable (you could remove or use it)
+    print("This function is not doing anything")
+
 hello_world()
 
-if x== 5:   # E701: multiple statements on one line
- print("The value of x is", x) # Undefined variable `x`
+x = 5  # Define x before using it
+if x == 5:  # Fixed the indentation and split statements properly
+    print("The value of x is", x)
