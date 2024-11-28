@@ -5,7 +5,7 @@ def hello_world():
 
 
 def example_function():
-    unused_var = 10  # This variable is not used, consider removing or using it
+    # unused_var = 10  # This variable is not used, consider removing or using it
     print("This function is not doing anything")
 
 
